@@ -22,9 +22,9 @@
 }
 .navbar-call {
     list-style-type: none;
-    font:18px arial;
+    font: 18px arial;
     padding: 6px ;
-    border: 4px solid var(--bs-blue);
+    border: 4px solid rgb(17, 0, 255);
     border-radius: 11px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
