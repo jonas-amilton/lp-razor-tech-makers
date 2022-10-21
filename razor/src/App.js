@@ -11,8 +11,8 @@ function App() {
       <Principal/>
       <FichaTecnica/>
       <main>
-      
 
+        
       </main>
     </div>
   );
