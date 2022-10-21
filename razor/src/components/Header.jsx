@@ -1,6 +1,6 @@
 import React from "react";
 import logorazor from "./img/logorazorb.png";
-import "./style.css";
+import "./header.css";
 
 function header() {
   return (
