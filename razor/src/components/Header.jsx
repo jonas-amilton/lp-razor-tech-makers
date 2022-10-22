@@ -1,7 +1,7 @@
 import React from "react";
 import logorazor from "./img/logorazorb.png";
 import "../components/css/header.css";
-
+import Principal from './Principal.jsx'
 function header() {
   return (
     <>
@@ -17,6 +17,7 @@ function header() {
           </ul>
         </nav>
       </header>
+      <Principal/>
     </>
   );
 }

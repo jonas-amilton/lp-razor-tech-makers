@@ -1,17 +1,15 @@
 import React from "react";
 import "./App.css";
-import Header from './components/Header.jsx'
-import Principal from '.components/Principal';
-import FichaTecnica from "./components/FichaTecnica";
+import Header from './components/Header.jsx';
+import Principal from './components/Principal.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header/> 
       <Principal/>
-      <FichaTecnica/>
       <main>
-
+       
         
       </main>
     </div>
