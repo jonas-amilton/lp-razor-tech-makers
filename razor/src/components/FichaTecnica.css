@@ -1,0 +1,38 @@
+*{
+    background-color:black;
+}
+.banner-video {
+    width: 500px;
+    border-radius: 10px;
+
+}
+
+.home {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+
+
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--white);
+    margin-bottom: 16px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 4rem;
+}
