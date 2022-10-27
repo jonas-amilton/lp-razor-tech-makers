@@ -5,6 +5,7 @@ import computer from "../assets/computer.mp4";
 import client2 from "../assets/guy.jpg";
 import client1 from "../assets/girl.jpg";
 import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
+import Contador from "./Contador.js";
 
 function Home() {
   return (
