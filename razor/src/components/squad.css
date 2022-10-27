@@ -1,0 +1,60 @@
+.painel-part{
+    padding-top: 20px;
+    height: 600px;
+}
+
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.painel-part .nossaEquipe{
+    text-align: center;
+}
+
+.painel-part .title{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.painel-part .participantes{
+    text-align: center;
+}
+
+.painel-part .participante{
+    display: inline-block;
+    margin: 0 40px 40px 0;
+    padding: 18px;
+    width: 220px;
+    vertical-align: top;
+}
+
+.painel-part .foto{
+    border-radius: 50%;
+    width: 80%;
+}
+
+.painel-part #jonas{
+    width: 92%;
+}
+
+
+.painel-part .participante-nome{
+    margin-top: 10px;
+}
+
+.painel-part .linkedin{
+    width: 22%;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    display:inline-block;
+}
+
+.painel-part .gitHub{
+    width: 25%;
+    margin-top: 5px;
+}
+
+
