@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 
-
-
 function contador() {
   const [totalSegundos, SettotalTempoemsegundos] = useState(5);
   const minutos = Math.floor(totalSegundos / 60);
