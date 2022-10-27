@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 
 import "./squad.css";
 
-import fotoFellipe from '../pages/assets/fellipe.jpg';
+import fotoFellipe from '../pages/assets/fellipe2.jpg';
 import fotoJonas from '../pages/assets/jonas.jfif';
+import fotoErik from '../pages/assets/erik.jfif';
 
 import linkedin from '../pages/assets/linkedin.png';
 import gitHub from '../pages/assets/github1.png';
@@ -39,16 +40,20 @@ class NossaEquipe extends Component{
 
                             <li className="participante">
                                 <figure className="part-portait">
-                                    <img className="foto" src={fotoFellipe} />
-                                    <fingcaption className="participante-nome">Fellipe Scheffer</fingcaption>
-                                    <img className="linkedin" src={linkedin} />
-                                    <img className="gitHub" src={gitHub} />
+                                    <img className="foto" id="erik" src={fotoErik} />
+                                    <fingcaption className="participante-nome"> Erik Esperidião</fingcaption>
+                                    <a href="https://www.linkedin.com/in/erikesperidiao/" target="_blank">
+                                        <img className="linkedin" src={linkedin} />        
+                                    </a>
+                                    <a href="https://github.com/ErikMacedo" target="_blank">
+                                        <img className="gitHub" src={gitHub} />
+                                    </a>
                                 </figure>
                             </li>
 
                             <li className="participante">
                                 <figure className="part-portait">
-                                    <img className="foto" src={fotoFellipe} />
+                                    <img className="foto" id="fellipe" src={fotoFellipe} />
                                     <fingcaption className="participante-nome">Fellipe Scheffer</fingcaption>
                                     <a href="https://www.linkedin.com/in/fellipe-scheffer/" target="_blank">
                                         <img className="linkedin" src={linkedin} />
