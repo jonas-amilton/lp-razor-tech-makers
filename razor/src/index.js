@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './pages/Home/form.css';
+import './components/form.css';
 import App from './App';
 
 
