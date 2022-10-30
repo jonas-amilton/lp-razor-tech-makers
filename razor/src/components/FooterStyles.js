@@ -1,23 +1,21 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
-background: black;
-
+padding: 20px 60px;
 bottom: 0;
 width: auto;
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 	padding: 70px 30px;
 }
 `;
 
 export const Container = styled.div`
-	display: flex;
+	display: auto;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
 	/* background: red; */
 `
