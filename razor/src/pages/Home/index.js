@@ -25,7 +25,8 @@ function Home() {
             Conheça a linha projetada especialmente para<br></br> editores de
             vídeo, motion e 3D.
           </p>
-          <button href="#">Escolha sua Máquina</button>
+          <a href="#maquina">
+          <button >Escolha sua Máquina</button></a>
         </div>
         <video className="videotag" autoPlay loop muted>
           <source src={computer} type="video/mp4" />
@@ -80,6 +81,7 @@ function Home() {
           <h1>INDÚSTRIA</h1>
         </div>
       </div>
+      <section  id="maquina" > </section>
       <div className="prices-section">
         <div className="prices-container">
           <div className="price-card">
