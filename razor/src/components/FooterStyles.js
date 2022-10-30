@@ -8,7 +8,7 @@ bottom: 0;
 width: 100%;
 
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
 	padding: 70px 30px;
 }
 `;
@@ -17,7 +17,7 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 1000px;
+	max-width: 800px;
 	margin: 0 auto;
 	/* background: red; */
 `
@@ -48,7 +48,7 @@ font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
+	color: #8872E7;
 	transition: 200ms ease-in;
 }
 `;
