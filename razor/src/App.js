@@ -13,8 +13,8 @@ function App() {
         <Routes />
         <Form />
         <NossaEquipe />
-        <Footer />
         <ScrollButton />
+        <Footer />
       </Fragment>
     </>
   );
