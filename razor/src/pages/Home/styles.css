@@ -145,8 +145,12 @@ body{
     margin: 1em;
 }
 
-.recommended{
+.recommended:hover{
     border: 2px solid var(--secondary);
+    
+}
+.recommended button:hover{
+    background-color: var(--primary);
 }
 
 .price-card h1{
@@ -161,10 +165,6 @@ body{
 
 .price-card span{
     font-size: 0.6em;
-}
-
-.recommended h1{
-    color: var(--secondary);
 }
 
 .features{
@@ -185,9 +185,7 @@ body{
     font-weight: bold;
 }
 
-.recommended button{
-    background-color: var(--primary);
-}
+
 
 footer{
     margin: 4em 0;

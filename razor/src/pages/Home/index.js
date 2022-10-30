@@ -5,6 +5,7 @@ import computer from "../assets/computer.mp4";
 import client2 from "../assets/guy.jpg";
 import client1 from "../assets/girl.jpg";
 import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
+import Form from "../../components/Form.jsx";
 
 
 
@@ -84,7 +85,7 @@ function Home() {
       <section  id="maquina" > </section>
       <div className="prices-section">
         <div className="prices-container">
-          <div className="price-card">
+          <div className="price-card recommended">
             <h1>TALENT</h1>
             <h2>A PARTIR DE R$6.883,45</h2>
             <div className="features">
@@ -93,8 +94,10 @@ function Home() {
               <p>AMD Ryzen 5 5600G ou</p>
               <p>Intel Core i5-12400</p>
             </div>
-            <button>Orçar</button>
+            <a href="#form">
+            <button>Orçar</button></a>
           </div>
+        
           <div className="price-card recommended">
             <h1>PRODIGY</h1>
             <h2>
@@ -106,9 +109,11 @@ function Home() {
               <p>AMD Ryzen 7 5800 ou</p>
               <p>Intel Core i5-12400</p>
             </div>
-            <button>Orçar</button>
+            <a href="#form">
+            <button>Orçar</button></a>
           </div>
-          <div className="price-card">
+        
+          <div className="price-card recommended">
             <h1>VIRTUOS</h1>
             <h2>A PARTIR DE R$39.848,94</h2>
             <div className="features">
@@ -117,7 +122,8 @@ function Home() {
               <p>AMD® Ryzen™ Threadripper 3960X ou</p>
               <p>AMD® Ryzen™ Threadripper 3975WX</p>
             </div>
-            <button>Orçar</button>
+            <a href="#form">
+            <button>Orçar</button></a>
           </div>
         </div>
       </div>
