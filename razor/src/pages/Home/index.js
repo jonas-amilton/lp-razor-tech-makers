@@ -7,6 +7,7 @@ import client1 from "../assets/girl.jpg";
 import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
 
 
+
   
 
 function Home() {
@@ -120,6 +121,7 @@ function Home() {
       </div>
     </div>
       </>
+      
 
   );
 }
