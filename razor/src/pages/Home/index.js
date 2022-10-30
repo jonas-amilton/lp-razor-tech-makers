@@ -24,7 +24,7 @@ function Home() {
             Conheça a linha projetada especialmente para<br></br> editores de
             vídeo, motion e 3D.
           </p>
-          <button>Saiba mais</button>
+          <button href="#">Saiba mais</button>
         </div>
         <video className="videotag" autoPlay loop muted>
           <source src={computer} type="video/mp4" />
@@ -79,7 +79,7 @@ function Home() {
           <h1>INDÚSTRIA</h1>
         </div>
       </div>
-      <div className="plans-section">
+      <div className="prices-section">
         <h1>Escolha sua Maquina:</h1>
         <div className="prices-container">
           <div className="price-card">
@@ -119,9 +119,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <footer>
-        <img src={logo} alt="Logo Razor" />
-      </footer>
     </div>
       </>
 

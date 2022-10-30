@@ -42,12 +42,12 @@
     border-radius: 4px;
     border: 0;
     cursor: pointer;
-    background-color: #0fdbff;
+    background-color: #8872E7;
     font-size: 18px;
     transition: background-color, transform 0.8s;
   }
   
   .button:hover{
-    background-color: #0fe3ff;
+    background-color: #755be8;
     transform: scale(1.01);
   }
