@@ -29,7 +29,7 @@ class NossaEquipe extends Component{
                         <ul className="participantes">
                             <li className="participante">
                                 <figure className="part-portait">
-                                    <img className="foto" src={fotoCaio} alt="foto-caio" />
+                                    <img className="foto" id="caio" src={fotoCaio} alt="foto-caio" />
                                     <fingcaption className="participante-nome">Caio Henrique</fingcaption>
                                     <a href="https://www.linkedin.com/in/caio-henrique-048996232/" target="_blank">
                                         <img className="linkedin" src={linkedin} alt="linkedin-caio" />
