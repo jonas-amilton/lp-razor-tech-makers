@@ -1,6 +1,7 @@
 .painel-part{
     padding-top: 20px;
     height: 600px;
+    margin-bottom: 90px;
 }
 
 .container{
@@ -33,7 +34,6 @@
 
 .painel-part .foto{
     border-radius: 50%;
-    width: 80%;
 }
 
 .painel-part #jonas{
@@ -49,6 +49,10 @@
 }
 
 .painel-part #mariane{
+    width: 92%
+}
+
+.painel-part #caio{
     width: 92%
 }
 
