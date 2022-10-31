@@ -1,0 +1,235 @@
+:root{
+    --background: #131119;
+    --primary: #8872E7;
+    --secondary: #B9971E;
+    --contrast: #1F1C29;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html, body{
+    margin: 0;
+    background-color: var(--background);
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.header{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.header video {
+    width: 15em;
+}
+
+.videotag {
+    max-width: 450px;
+    border-radius: 6px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-title{
+    margin: 3em 0;
+}
+
+.hero-title h1{
+    font-size: 4em;
+    margin: 0;
+}
+
+.hero-title p{
+    font-size: 1.3em;
+    color: var(--secondary);
+    margin: 1.2em 0.8em;
+}
+
+.hero-title button{
+    cursor: pointer;
+    width: 10em;
+    height: 3em;
+    background-color: var(--primary);
+    color: white;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border-color: transparent;
+    border-bottom: 9px solid #402C97; 
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    background-color: var(--contrast);
+    height: 15em;
+    width: 20em;
+    text-align: center;
+}
+
+.icon{
+    width: 3em;
+    height: 3em;
+    color: var(--secondary);
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonial-card{
+    margin-bottom: 4em;
+}
+
+.testimonial-card img{
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pillars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.pillar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pillar div{
+    background-color: var(--primary);
+    width: 16em;
+    height: 0.7em;
+}
+
+.price-section{
+    text-align: center;
+}
+
+.price-card{
+    background-color: var(--contrast);
+    height: 23em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.recommended:hover{
+    border: 2px solid var(--secondary);
+    
+}
+.recommended button:hover{
+    background-color: var(--primary);
+}
+
+.price-card h1{
+    margin:0;
+    color: var(--primary);
+    font-size: 2.5em;
+}
+
+.price-card h2{
+    color: #C1BDD4;
+}
+
+.price-card span{
+    font-size: 0.6em;
+}
+
+.features{
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.price-card button{
+    cursor: pointer;
+    width: 10em;
+    height: 3em;
+    background-color: #282530;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border-color: transparent;
+    border-bottom: 9px solid #402C97; 
+    font-weight: bold;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .header{
+        margin: 2em 5em;
+        justify-content: start;
+    }
+
+    .hero video{
+        width: 50%;
+    }
+    .hero{
+        margin: 0 5em;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .hero p{
+        margin: 2em 0;
+    }
+
+    .courses{
+        flex-direction: row;
+    }
+
+    .testimonials{
+        flex-direction: row;
+    }
+
+    .testimonial-card{
+        margin: 1em;
+        width: 20em;
+    }
+
+    .pillars{
+        margin-top: 10em;
+        margin-bottom: 10em;
+        flex-direction: row;
+    }
+
+    .prices-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}

@@ -1,12 +1,11 @@
 .painel-part{
-    padding-top: 20px;
     height: 600px;
-    margin-bottom: 90px;
+    margin-bottom: 250px;
 }
 
 .container{
     width: 96%;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .painel-part .nossaEquipe{

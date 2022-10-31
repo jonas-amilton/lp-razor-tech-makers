@@ -1,12 +1,10 @@
 import React from "react";
-import "./styles.css";
+import "./styleIndex.css";
 import logo from "../assets/logo.png";
 import computer from "../assets/computer.mp4";
 import client2 from "../assets/guy.jpg";
 import client1 from "../assets/girl.jpg";
 import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
-import Form from "../../components/Form.jsx";
-
 
 
   
@@ -128,6 +126,7 @@ function Home() {
         </div>
       </div>
     </div>
+    <footer></footer>
       </>
       
 
