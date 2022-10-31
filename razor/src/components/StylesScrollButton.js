@@ -5,7 +5,7 @@ export const Button = styled.div`
    width: 100%;
    left: 70%;
    bottom: 100px;
-   height: 20px;
+   height: 80px;
    font-size: 3.5rem;
    z-index: 1;
    cursor: pointer;
