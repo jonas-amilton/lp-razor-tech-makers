@@ -7,10 +7,12 @@ import {
   FooterLink,
   Heading,
 } from "./FooterStyles";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaYoutubeSquare } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaInstagram,
+  FaWhatsapp,
+  FaYoutubeSquare,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -61,9 +63,12 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Precisa de ajuda?</Heading>
-            <FooterLink href="https://razorcomputadores.typeform.com/orcamento-site?utm_source=&utm_medium=&utm_campaign=&utm_term=&utm_content=#hubspot_utk=&hubspot_page_name=&hubspot_page_url="
-			target="_blank"
-			>Solicite um orçamento</FooterLink>
+            <FooterLink
+              href="https://razorcomputadores.typeform.com/orcamento-site?utm_source=&utm_medium=&utm_campaign=&utm_term=&utm_content=#hubspot_utk=&hubspot_page_name=&hubspot_page_url="
+              target="_blank"
+            >
+              Solicite um orçamento
+            </FooterLink>
           </Column>
         </Row>
       </Container>
