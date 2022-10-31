@@ -31,15 +31,12 @@ function Home() {
             <h1>INDÚSTRIA</h1>
           </div>
         </div>
-        <div className="hero-title">
-          <h2>Tá esperando o que?</h2>
-          <a href="#maquina">
-            <button>Escolha sua Máquina</button>
-          </a>
-        </div>
+
         <div className="hero"></div>
 
-        <h2>"Desempenho de Maçã<br></br> a preço de banana"</h2>
+        <h2>
+          "Desempenho de Maçã<br></br> a preço de banana"
+        </h2>
 
         <div className="testimonials">
           <div className="testimonial-card">
@@ -64,6 +61,12 @@ function Home() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="hero-title">
+          <h2>Tá esperando o que?</h2>
+          <a href="#maquina">
+            <button>Escolha sua Máquina</button>
+          </a>
         </div>
         <div className="courses">
           <div className="course">
@@ -121,6 +124,9 @@ function Home() {
               </a>
             </div>
           </div>
+        </div>
+        <div className="header">
+          <img src={logo} alt="Logo Razor" />
         </div>
       </div>
     </>
