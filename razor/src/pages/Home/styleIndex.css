@@ -48,6 +48,7 @@ html, body{
 }
 
 .hero-title p{
+    text-align: left;
     font-size: 1.3em;
     color: var(--secondary);
     margin: 1.2em 0.8em;

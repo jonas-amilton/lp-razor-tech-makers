@@ -165,23 +165,14 @@ class NossaEquipe extends Component {
               </li>
             </ul>
             <footer className="footer">
-              <div>
-                    <h4>Nossa História</h4>
+
+            <div>
                     <p>"Uma fabricante brasileira de<br></br> computadores de alta performance."
                     <p>Prazer, somos a Razor</p>
                     </p>
                 </div>
 
-                <div>
-                <h4>Contato</h4>
-                    <ul>
-                        <li>21 23232-4343</li>
-                        <li>contato@razorcomputadores.com</li>
-                        <li>Passo Fundo, Rio Grande do Sul</li>
-                    </ul>
-
-                </div>
-                <div>
+            <div>
                     <ul>
                     <img
                     className="foto"
@@ -193,7 +184,15 @@ class NossaEquipe extends Component {
 
                 </div>
 
-              
+                <div>
+                    <ul>
+                        <li>21 23232-4343</li>
+                        <li>contato@razorcomputadores.com</li>
+                        <li>Passo Fundo, Rio Grande do Sul</li>
+                    </ul>
+
+                </div>
+
             </footer>
           </div>
         </section>

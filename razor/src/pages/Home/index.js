@@ -19,11 +19,7 @@ function Home() {
       </div>
       <div className="hero">
         <div className="hero-title">
-          <h1>Design sem frescura</h1>
-          <p>
-            Conheça a linha projetada<br></br> especialmente para<br></br> editores de
-            vídeo, motion e 3D.
-          </p>
+          <h1>Design sem frescura</h1><br></br><br></br>
           <a href="#maquina">
           <button >Escolha sua Máquina</button></a>
         </div>
