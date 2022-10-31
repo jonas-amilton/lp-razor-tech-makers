@@ -5,6 +5,8 @@ import computer from "../assets/computer.mp4";
 import client2 from "../assets/guy.jpg";
 import client1 from "../assets/girl.jpg";
 import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
+import processador from "../assets/video-processador.mp4";
+import placadevideo from "../assets/video-placadevideo.mp4";
 
 function Home() {
   return (
@@ -34,6 +36,26 @@ function Home() {
 
         <div className="hero"></div>
 
+        
+
+        <div className="hero">
+          <div className="hero-title">
+            <h1>Processador Workaholic</h1>
+            <p>
+            Máquinas com processadores de <br></br>última geração 
+            Intel ou AMD e até <br></br>64 núcleos.
+            </p>
+            <p>
+            Customize com multiprocessamento <br></br>de até 2 CPUs por PC
+             e a linha Intel <br></br>XEON e AMD Threadripper ou AMD <br></br>Epyc.
+            </p>
+      
+          </div>
+          <video className="videotag" autoPlay loop muted>
+            <source src={processador} type="video/mp4" />
+          </video>
+        </div>
+
         <h2>
           "Desempenho de Maçã<br></br> a preço de banana"
         </h2>
@@ -62,6 +84,24 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className="hero">
+          <div className="hero-title">
+          
+            <h1>Chip gráfico que não arrega para o seu render</h1>
+            <p>
+            Se tempo é dinheiro, a Workstation <br></br>Pro é o melhor investimento que <br></br>
+            você pode fazer. Alcance a máxima <br></br>velocidade e o extremo <br></br>desempenho com as linhas Nvidia 
+            <br></br>RTX Geforce ou RTX Quadro.
+            </p>
+            
+          </div>
+          <video className="videotag" autoPlay loop muted>
+          <source src={placadevideo} type="video/mp4" />
+        </video>
+        </div>
+        
+
         <div className="hero-title">
           <h2>Tá esperando o que?</h2>
           <a href="#maquina">

@@ -8,6 +8,8 @@ import fotoJonas from "../pages/assets/jonas.jfif";
 import fotoErik from "../pages/assets/erik.jfif";
 import fotoCaio from "../pages/assets/caio.jfif";
 import fotoMariane from "../pages/assets/mariane.jfif";
+import fotoJoao from "../pages/assets/joao.jfif";
+
 
 import linkedin from "../pages/assets/linkedin.png";
 import gitHub from "../pages/assets/github1.png";
@@ -160,6 +162,32 @@ class NossaEquipe extends Component {
                   </a>
                   <a href="https://github.com/marianeasilva" target="_blank">
                     <img className="gitHub" src={gitHub} alt="github-mariane" />
+                  </a>
+                </figure>
+              </li>
+              <li className="participante">
+                <figure className="part-portait">
+                  <img
+                    className="foto"
+                    id="joao"
+                    src={fotoJoao}
+                    alt="foto-joao"
+                  />
+                  <fingcaption className="participante-nome">
+                    João Bergalho{" "}
+                  </fingcaption>
+                  <a
+                    href="https://www.linkedin.com/in/jhbergallo/"
+                    target="_blank"
+                  >
+                    <img
+                      className="linkedin"
+                      src={linkedin}
+                      alt="linkedin-joao"
+                    />
+                  </a>
+                  <a href="https://github.com/jhbergallo" target="_blank">
+                    <img className="gitHub" src={gitHub} alt="github-joao" />
                   </a>
                 </figure>
               </li>
