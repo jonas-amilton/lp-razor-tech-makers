@@ -50,7 +50,7 @@ html, body{
 .hero-title p{
     text-align: left;
     font-size: 1.3em;
-    color: var(--secondary);
+    color: #dad7d7;
     margin: 1.2em 0.8em;
 }
 
