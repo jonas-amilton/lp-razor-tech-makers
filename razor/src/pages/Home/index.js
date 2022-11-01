@@ -16,7 +16,7 @@ function Home() {
           <img src={logo} alt="Logo Razor" />
         </div>
         <video className="videotag" autoPlay loop muted>
-          <source src={computer} type="video/mp4" />
+          <source src={computer} type="video/mp4"/>
         </video>
 
         <div className="pillars">

@@ -141,7 +141,6 @@ html, body{
     width: 16em;
     height: 0.7em;
 }
-
 .price-section{
     text-align: center;
 }
@@ -156,7 +155,9 @@ html, body{
     justify-content: center;
     margin: 1em;
 }
-
+.recommended{
+    border: 2px solid var(--background);
+}
 .recommended:hover{
     border: 2px solid var(--secondary);
     
