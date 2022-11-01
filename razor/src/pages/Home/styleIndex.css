@@ -6,7 +6,9 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-
+*{
+    transition: .3s;
+}
 html, body{
     margin: 0;
     background-color: var(--background);
@@ -120,9 +122,13 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 5em;
+    margin-bottom: 5px;
 }
-
+@media (max-width:768px){
+    .pillars{
+        margin: 45px 0 -15px 0;
+    }
+}
 .pillar{
     width: 100%;
     display: flex;
