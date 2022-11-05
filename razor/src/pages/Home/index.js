@@ -30,7 +30,7 @@ function Home() {
           </div>
           <div className="pillar">
             <div></div>
-            <h1>INDÚSTRIA</h1>
+            <h1>DESIGN</h1>
           </div>
         </div>
 
@@ -85,6 +85,13 @@ function Home() {
           </div>
         </div>
 
+        <div className="hero-title">
+          <h2>Tá esperando o que?</h2>
+          <a href="#maquina">
+            <button>Escolha sua Máquina</button>
+          </a>
+        </div>
+
         <div className="hero">
           <div className="hero-title">
           
@@ -101,24 +108,6 @@ function Home() {
         </video>
         </div>
         
-
-        <div className="hero-title">
-          <h2>Tá esperando o que?</h2>
-          <a href="#maquina">
-            <button>Escolha sua Máquina</button>
-          </a>
-        </div>
-        <div className="courses">
-          <div className="course">
-            <FaCcPaypal className="icon" />
-          </div>
-          <div className="course">
-            <FaCcVisa className="icon" />
-          </div>
-          <div className="course">
-            <FaCcMastercard className="icon" />
-          </div>
-        </div>
         <section id="maquina"> </section>
         <div className="prices-section">
           <div className="prices-container">
@@ -165,6 +154,19 @@ function Home() {
             </div>
           </div>
         </div>
+
+        <div className="courses">
+          <div className="course">
+            <FaCcPaypal className="icon" />
+          </div>
+          <div className="course">
+            <FaCcVisa className="icon" />
+          </div>
+          <div className="course">
+            <FaCcMastercard className="icon" />
+          </div>
+        </div>
+
         <div className="header">
           <img src={logo} alt="Logo Razor" />
         </div>
