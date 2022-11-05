@@ -28,6 +28,7 @@ class NossaEquipe extends Component {
             <ul className="participantes">
               <li className="participante">
                 <figure className="part-portait">
+                  <h1>Desenvolvedor</h1>
                   <img
                     className="foto"
                     id="caio"
@@ -59,6 +60,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
+                <h1>Desenvolvedor</h1>
                   <img
                     className="foto"
                     id="erik"
@@ -87,6 +89,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
+                <h1>Designer</h1>
                   <img
                     className="foto"
                     id="fellipe"
@@ -114,6 +117,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
+                <h1>Desenvolvedor Lider</h1>
                   <img
                     className="foto"
                     id="jonas"
@@ -141,6 +145,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
+                <h1>Designer</h1>
                   <img
                     className="foto"
                     id="mariane"
@@ -167,6 +172,7 @@ class NossaEquipe extends Component {
               </li>
               <li className="participante">
                 <figure className="part-portait">
+                <h1>Designer</h1>
                   <img
                     className="foto"
                     id="joao"
