@@ -40,7 +40,7 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/caio-henrique-048996232/"
-                    target="_blank"
+                    
                   >
                     <img
                       className="linkedin"
@@ -48,7 +48,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-caio"
                     />
                   </a>
-                  <a href="https://github.com/CaioHenriqueh" target="_blank">
+                  <a href="https://github.com/CaioHenriqueh" >
                     <img
                       className="gitHub"
                       src={gitHub}
@@ -73,7 +73,6 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/erikesperidiao/"
-                    target="_blank"
                   >
                     <img
                       className="linkedin"
@@ -81,7 +80,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-erik"
                     />
                   </a>
-                  <a href="https://github.com/ErikMacedo" target="_blank">
+                  <a href="https://github.com/ErikMacedo" >
                     <img className="gitHub" src={gitHub} alt="linkedin-erik" />
                   </a>
                 </figure>
@@ -101,7 +100,6 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/fellipe-scheffer/"
-                    target="_blank"
                   >
                     <img
                       className="linkedin"
@@ -109,7 +107,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-felipe"
                     />
                   </a>
-                  <a href="https://github.com/FellipeScheffer" target="_blank">
+                  <a href="https://github.com/FellipeScheffer" >
                     <img className="gitHub" src={gitHub} alt="github-felipe" />
                   </a>
                 </figure>
@@ -129,7 +127,6 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/jonas-ag-silva/"
-                    target="_blank"
                   >
                     <img
                       className="linkedin"
@@ -137,7 +134,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-jonas"
                     />
                   </a>
-                  <a href="https://github.com/jonas-amilton" target="_blank">
+                  <a href="https://github.com/jonas-amilton" >
                     <img className="gitHub" src={gitHub} alt="github-jonas" />
                   </a>
                 </figure>
@@ -157,7 +154,6 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/silvamariane/"
-                    target="_blank"
                   >
                     <img
                       className="linkedin"
@@ -165,7 +161,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-mariane"
                     />
                   </a>
-                  <a href="https://github.com/marianeasilva" target="_blank">
+                  <a href="https://github.com/marianeasilva">
                     <img className="gitHub" src={gitHub} alt="github-mariane" />
                   </a>
                 </figure>
@@ -184,7 +180,6 @@ class NossaEquipe extends Component {
                   </fingcaption>
                   <a
                     href="https://www.linkedin.com/in/jhbergallo/"
-                    target="_blank"
                   >
                     <img
                       className="linkedin"
@@ -192,7 +187,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-joao"
                     />
                   </a>
-                  <a href="https://github.com/jhbergallo" target="_blank">
+                  <a href="https://github.com/jhbergallo">
                     <img className="gitHub" src={gitHub} alt="github-joao" />
                   </a>
                 </figure>
