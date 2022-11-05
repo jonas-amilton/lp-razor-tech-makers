@@ -22,7 +22,7 @@ class NossaEquipe extends Component {
         <section className="painel-part">
           <div className="container">
             <div className="nossaEquipe">
-              <h2 className="title">Nossa Equipe</h2>
+              <h2 className="title">Squad tech-makers</h2>
             </div>
 
             <ul className="participantes">

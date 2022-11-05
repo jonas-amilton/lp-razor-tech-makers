@@ -16,44 +16,23 @@ function Home() {
           <img src={logo} alt="Logo Razor" />
         </div>
         <video className="videotag" autoPlay loop muted>
-          <source src={computer} type="video/mp4"/>
+          <source src={computer} type="video/mp4" />
         </video>
 
         <div className="pillars">
           <div className="pillar">
             <div></div>
+
             <h1>ARQUITETURA</h1>
-          </div>
-          <div className="pillar">
-            <div></div>
-            <h1>ENGENHARIA</h1>
           </div>
           <div className="pillar">
             <div></div>
             <h1>DESIGN</h1>
           </div>
-        </div>
-
-        <div className="hero"></div>
-
-        
-
-        <div className="hero">
-          <div className="hero-title">
-            <h1>Processador Workaholic</h1>
-            <p>
-            Máquinas com processadores de <br></br>última geração 
-            Intel ou AMD e até <br></br>64 núcleos.
-            </p>
-            <p>
-            Customize com multiprocessamento <br></br>de até 2 CPUs por PC
-             e a linha Intel <br></br>XEON e AMD Threadripper ou AMD <br></br>Epyc.
-            </p>
-      
+          <div className="pillar">
+            <div></div>
+            <h1>ENGENHARIA</h1>
           </div>
-          <video className="videotag" autoPlay loop muted>
-            <source src={processador} type="video/mp4" />
-          </video>
         </div>
 
         <h2>
@@ -85,29 +64,6 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero-title">
-          <h2>Tá esperando o que?</h2>
-          <a href="#maquina">
-            <button>Escolha sua Máquina</button>
-          </a>
-        </div>
-
-        <div className="hero">
-          <div className="hero-title">
-          
-            <h1>Chip gráfico que não arrega para o seu render</h1>
-            <p>
-            Se tempo é dinheiro, a Workstation <br></br>Pro é o melhor investimento que <br></br>
-            você pode fazer. Alcance a máxima <br></br>velocidade e o extremo <br></br>desempenho com as linhas Nvidia 
-            <br></br>RTX Geforce ou RTX Quadro.
-            </p>
-            
-          </div>
-          <video className="videotag" autoPlay loop muted>
-          <source src={placadevideo} type="video/mp4" />
-        </video>
-        </div>
-        
         <section id="maquina"> </section>
         <div className="prices-section">
           <div className="prices-container">
@@ -153,6 +109,48 @@ function Home() {
               </a>
             </div>
           </div>
+        </div>
+
+        <div className="hero"></div>
+
+        <div className="hero">
+          <div className="hero-title">
+            <h1>Processador Workaholic</h1>
+            <p>
+              Máquinas com processadores de <br></br>última geração Intel ou AMD
+              e até <br></br>64 núcleos.
+            </p>
+            <p>
+              Customize com multiprocessamento <br></br>de até 2 CPUs por PC e a
+              linha Intel <br></br>XEON e AMD Threadripper ou AMD <br></br>Epyc.
+            </p>
+          </div>
+          <video className="videotag" autoPlay loop muted>
+            <source src={processador} type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="hero">
+          <div className="hero-title">
+            <h1>Chip gráfico que não arrega para o seu render</h1>
+            <p>
+              Se tempo é dinheiro, a Workstation <br></br>Pro é o melhor
+              investimento que <br></br>
+              você pode fazer. Alcance a máxima <br></br>velocidade e o extremo{" "}
+              <br></br>desempenho com as linhas Nvidia
+              <br></br>RTX Geforce ou RTX Quadro.
+            </p>
+          </div>
+          <video className="videotag" autoPlay loop muted>
+            <source src={placadevideo} type="video/mp4" />
+          </video>
+        </div>
+
+        <div className="hero-title">
+          <h2>Tá esperando o que?</h2>
+          <a href="#maquina">
+            <button>Escolha sua Máquina</button>
+          </a>
         </div>
 
         <div className="courses">
