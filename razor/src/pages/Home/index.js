@@ -111,13 +111,6 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero-title">
-          <h2>Tá esperando o que?</h2>
-          <a href="#maquina">
-            <button>Escolha sua Máquina</button>
-          </a>
-        </div>
-
         <div className="hero">
           <div className="hero-title">
             <h1>Processador Workaholic</h1>
@@ -149,6 +142,13 @@ function Home() {
           <video className="videotag" autoPlay loop muted>
             <source src={placadevideo} type="video/mp4" />
           </video>
+        </div>
+
+        <div className="hero-title">
+          <h2>Tá esperando o que?</h2>
+          <a href="#maquina">
+            <button>Escolha sua Máquina</button>
+          </a>
         </div>
 
         <div className="courses">
