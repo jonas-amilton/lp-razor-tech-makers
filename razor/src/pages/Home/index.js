@@ -35,35 +35,6 @@ function Home() {
           </div>
         </div>
 
-        <h2>
-          "Desempenho de Maçã<br></br> a preço de banana"
-        </h2>
-
-        <div className="testimonials">
-          <div className="testimonial-card">
-            <img src={client1} alt="Cliente da Razor" />
-            <div className="message">
-              <h3>Fernanda Pimentel</h3>
-              <p>
-                "Encontramos na Razor um parceiro de negócios em nossa região
-                com amplo know-how em diferentes categorias de computadores,
-                servidores e storages para armazenamento de dados."
-              </p>
-            </div>
-          </div>
-          <div className="testimonial-card">
-            <img src={client2} alt="Cliente da Razor" />
-            <div className="testimonial-message">
-              <h3>Pedro Ferreira</h3>
-              <p>
-                "Trabalho com projetos de arquitetura e design de forma muito
-                plena, a máquina aguenta inúmeros softwares rodando ao mesmo
-                tempo."
-              </p>
-            </div>
-          </div>
-        </div>
-
         <section id="maquina"> </section>
         <div className="prices-section">
           <div className="prices-container">
@@ -144,6 +115,35 @@ function Home() {
           <video className="videotag" autoPlay loop muted>
             <source src={placadevideo} type="video/mp4" />
           </video>
+        </div>
+
+        <h2>
+          "Desempenho de Maçã<br></br> a preço de banana"
+        </h2>
+
+        <div className="testimonials">
+          <div className="testimonial-card">
+            <img src={client1} alt="Cliente da Razor" />
+            <div className="message">
+              <h3>Fernanda Pimentel</h3>
+              <p>
+                "Encontramos na Razor um parceiro de negócios em nossa região
+                com amplo know-how em diferentes categorias de computadores,
+                servidores e storages para armazenamento de dados."
+              </p>
+            </div>
+          </div>
+          <div className="testimonial-card">
+            <img src={client2} alt="Cliente da Razor" />
+            <div className="testimonial-message">
+              <h3>Pedro Ferreira</h3>
+              <p>
+                "Trabalho com projetos de arquitetura e design de forma muito
+                plena, a máquina aguenta inúmeros softwares rodando ao mesmo
+                tempo."
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="hero-title">
