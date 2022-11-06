@@ -159,7 +159,9 @@ function Home() {
             <FaCcVisa className="icon" />
           </div>
           <div className="course">
-            <FaCcMastercard className="icon" />
+          <video className="videotag" autoPlay loop muted>
+            <source src={placadevideo} type="video/mp4" />
+          </video>
           </div>
         </div>
 
