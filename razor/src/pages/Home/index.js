@@ -88,6 +88,23 @@ function Home() {
           </div>
         </div>
 
+        <div className="hero">
+          <div className="hero-title">
+            <h1>Processador Workaholic</h1>
+            <p>
+              Máquinas com processadores de <br></br>última geração Intel ou AMD
+              e até <br></br>64 núcleos.
+            </p>
+            <p>
+              Customize com multiprocessamento <br></br>de até 2 CPUs por PC e a
+              linha Intel <br></br>XEON e AMD Threadripper ou AMD <br></br>Epyc.
+            </p>
+          </div>
+          <video className="videotag" autoPlay loop muted>
+            <source src={processador} type="video/mp4" />
+          </video>
+        </div>
+
         <h2>
           "Desempenho de Maçã<br></br> a preço de banana"
         </h2>
@@ -117,22 +134,6 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero">
-          <div className="hero-title">
-            <h1>Processador Workaholic</h1>
-            <p>
-              Máquinas com processadores de <br></br>última geração Intel ou AMD
-              e até <br></br>64 núcleos.
-            </p>
-            <p>
-              Customize com multiprocessamento <br></br>de até 2 CPUs por PC e a
-              linha Intel <br></br>XEON e AMD Threadripper ou AMD <br></br>Epyc.
-            </p>
-          </div>
-          <video className="videotag" autoPlay loop muted>
-            <source src={processador} type="video/mp4" />
-          </video>
-        </div>
 
         <div className="hero">
           <div className="hero-title">
