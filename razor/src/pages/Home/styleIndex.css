@@ -72,28 +72,6 @@ html, body{
 
 }
 
-.courses{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: 7em;
-    margin-bottom: 5em;
-}
-
-.course{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1em;
-    background-color: var(--contrast);
-    height: 15em;
-    width: 20em;
-    text-align: center;
-}
-
 .icon{
     width: 3em;
     height: 3em;
@@ -148,7 +126,7 @@ html, body{
 
 .price-card{
     background-color: var(--contrast);
-    height: 23em;
+    height: 50em;
     padding: 2em;
     display: flex;
     flex-direction: column;
@@ -217,10 +195,6 @@ html, body{
 
     .hero p{
         margin: 2em 0;
-    }
-
-    .courses{
-        flex-direction: row;
     }
 
     .testimonials{

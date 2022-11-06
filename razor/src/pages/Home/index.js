@@ -4,9 +4,11 @@ import logo from "../assets/logo.png";
 import computer from "../assets/computer.mp4";
 import client2 from "../assets/guy.jpg";
 import client1 from "../assets/girl.jpg";
-import { FaCcPaypal, FaCcVisa, FaCcMastercard } from "react-icons/fa";
 import processador from "../assets/video-processador.mp4";
 import placadevideo from "../assets/video-placadevideo.mp4";
+import talent from "../assets/talent.webp"
+import prodigy from "../assets/prodigy.webp"
+import virtuos from "../assets/virtuos.webp"
 
 function Home() {
   return (
@@ -38,7 +40,9 @@ function Home() {
         <section id="maquina"> </section>
         <div className="prices-section">
           <div className="prices-container">
+
             <div className="price-card recommended">
+            <img src={talent} alt="Talent" />
               <h1>TALENT</h1>
               <h2>A PARTIR DE R$6.883,45</h2>
               <div className="features">
@@ -53,6 +57,7 @@ function Home() {
             </div>
 
             <div className="price-card recommended">
+            <img src={prodigy} alt="Prodigy" />
               <h1>PRODIGY</h1>
               <h2>A PARTIR DE R$10.841,16</h2>
               <div className="features">
@@ -67,6 +72,7 @@ function Home() {
             </div>
 
             <div className="price-card recommended">
+            <img src={virtuos} alt="Virtuos" />
               <h1>VIRTUOS</h1>
               <h2>A PARTIR DE R$39.848,94</h2>
               <div className="features">
@@ -149,20 +155,6 @@ function Home() {
           <a href="#maquina">
             <button>Escolha sua Máquina</button>
           </a>
-        </div>
-
-        <div className="courses">
-          <div className="course">
-            <FaCcPaypal className="icon" />
-          </div>
-          <div className="course">
-            <FaCcVisa className="icon" />
-          </div>
-          <div className="course">
-          <video className="videotag" autoPlay loop muted>
-            <source src={placadevideo} type="video/mp4" />
-          </video>
-          </div>
         </div>
 
         <div className="header">

@@ -73,4 +73,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### React icons
 [https://react-icons.github.io/react-icons/](https://react-icons.github.io/react-icons/)
 
-##teste3
+##/*
+      esse script abaixo funciona no vercel
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+ 
+      esse script funciona no vs code caso o de cima nao funcione
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    */
