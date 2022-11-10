@@ -10,10 +10,9 @@ import fotoCaio from "../pages/assets/caio.jfif";
 import fotoMariane from "../pages/assets/mariane.jfif";
 import fotoJoao from "../pages/assets/joao.jfif";
 
-
 import linkedin from "../pages/assets/linkedin.png";
 import gitHub from "../pages/assets/github1.png";
-import logoRazor from '../pages/assets/logo.png';
+import logoRazor from "../pages/assets/logo.png";
 
 class NossaEquipe extends Component {
   render() {
@@ -41,7 +40,6 @@ class NossaEquipe extends Component {
                   <a
                     href="https://www.linkedin.com/in/caio-henrique-048996232/"
                     target={"_blank"}
-                    
                   >
                     <img
                       className="linkedin"
@@ -49,7 +47,7 @@ class NossaEquipe extends Component {
                       alt="linkedin-caio"
                     />
                   </a>
-                  <a href="https://github.com/CaioHenriqueh" target={"_blank"} >
+                  <a href="https://github.com/CaioHenriqueh" target={"_blank"}>
                     <img
                       className="gitHub"
                       src={gitHub}
@@ -61,7 +59,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
-                <h1>Dev</h1>
+                  <h1>Dev</h1>
                   <img
                     className="foto"
                     id="erik"
@@ -73,7 +71,8 @@ class NossaEquipe extends Component {
                     Erik Esperidião
                   </fingcaption>
                   <a
-                    href="https://www.linkedin.com/in/erikesperidiao/ " target={"_blank"}
+                    href="https://www.linkedin.com/in/erikesperidiao/ "
+                    target={"_blank"}
                   >
                     <img
                       className="linkedin"
@@ -82,14 +81,19 @@ class NossaEquipe extends Component {
                     />
                   </a>
                   <a href="https://github.com/ErikMacedo" target={"_blank"}>
-                    <img className="gitHub" src={gitHub} alt="linkedin-erik" target={"_blank"} />
+                    <img
+                      className="gitHub"
+                      src={gitHub}
+                      alt="linkedin-erik"
+                      target={"_blank"}
+                    />
                   </a>
                 </figure>
               </li>
 
               <li className="participante">
                 <figure className="part-portait">
-                <h1>Designer</h1>
+                  <h1>Designer</h1>
                   <img
                     className="foto"
                     id="fellipe"
@@ -100,7 +104,8 @@ class NossaEquipe extends Component {
                     Fellipe Scheffer
                   </fingcaption>
                   <a
-                    href="https://www.linkedin.com/in/fellipe-scheffer/" target={"_blank"}
+                    href="https://www.linkedin.com/in/fellipe-scheffer/"
+                    target={"_blank"}
                   >
                     <img
                       className="linkedin"
@@ -108,15 +113,18 @@ class NossaEquipe extends Component {
                       alt="linkedin-felipe"
                     />
                   </a>
-                  <a href="https://github.com/FellipeScheffer" target={"_blank"}>
-                    <img className="gitHub" src={gitHub} alt="github-felipe"  />
+                  <a
+                    href="https://github.com/FellipeScheffer"
+                    target={"_blank"}
+                  >
+                    <img className="gitHub" src={gitHub} alt="github-felipe" />
                   </a>
                 </figure>
               </li>
 
               <li className="participante">
                 <figure className="part-portait">
-                <h1>Dev Lider</h1>
+                  <h1>Dev Lider</h1>
                   <img
                     className="foto"
                     id="jonas"
@@ -127,7 +135,8 @@ class NossaEquipe extends Component {
                     Jonas Amilton
                   </fingcaption>
                   <a
-                    href="https://www.linkedin.com/in/jonas-ag-silva/" target={"_blank"}
+                    href="https://www.linkedin.com/in/jonas-ag-silva/"
+                    target={"_blank"}
                   >
                     <img
                       className="linkedin"
@@ -143,7 +152,7 @@ class NossaEquipe extends Component {
 
               <li className="participante">
                 <figure className="part-portait">
-                <h1>Designer</h1>
+                  <h1>Designer</h1>
                   <img
                     className="foto"
                     id="mariane"
@@ -154,7 +163,8 @@ class NossaEquipe extends Component {
                     Mariane Silva{" "}
                   </fingcaption>
                   <a
-                    href="https://www.linkedin.com/in/silvamariane/" target={"_blank"}
+                    href="https://www.linkedin.com/in/silvamariane/"
+                    target={"_blank"}
                   >
                     <img
                       className="linkedin"
@@ -169,7 +179,7 @@ class NossaEquipe extends Component {
               </li>
               <li className="participante">
                 <figure className="part-portait">
-                <h1>Designer</h1>
+                  <h1>Designer</h1>
                   <img
                     className="foto"
                     id="joao"
@@ -180,7 +190,8 @@ class NossaEquipe extends Component {
                     João Bergalho{" "}
                   </fingcaption>
                   <a
-                    href="https://www.linkedin.com/in/jhbergallo/" target={"_blank"}
+                    href="https://www.linkedin.com/in/jhbergallo/"
+                    target={"_blank"}
                   >
                     <img
                       className="linkedin"
@@ -196,34 +207,36 @@ class NossaEquipe extends Component {
             </ul>
             <footer className="footer">
 
-            <div>
-                    <p>"Uma fabricante brasileira de<br></br> computadores de alta performance."
-                    <p>Prazer, somos a Razor</p>
-                    </p>
-                </div>
+<div>
+        <p>"Uma fabricante brasileira de<br></br> computadores de alta performance."</p>
+    </div>
 
-            <div>
-                    <ul>
-                    <img
-                    className="foto"
-                    id="logo-razor"
-                    src={logoRazor}
-                    alt="logo-razor"
-                  />
-                    </ul>
+<div>
+        <ul>
+        <img
+        className="foto"
+        id="logo-razor"
+        src={logoRazor}
+        alt="logo-razor"
+      />
+        </ul>
 
-                </div>
+    </div>
 
-                <div>
-                    <ul>
-                        <li>21 23232-4343</li>
-                        <li>contato@razorcomputadores.com</li>
-                        <li>Passo Fundo, Rio Grande do Sul</li>
-                    </ul>
+    <div className="contato">
+        <ul>
+            <li>
+              <a href="mailto:contato@razorcomputadores.com">Contate nos por E-mail</a></li>
+            <li>
+              <a href="https://www.bing.com/maps?&ty=18&q=Razor%20Computadores%20Passo%20Fundo%20Rs%20RS&ss=ypid.YN7993x3285339304219322685&ppois=-28.267486572265625_-52.4241943359375_Razor%20Computadores_YN7993x3285339304219322685~&cp=-28.267487~-52.424194&v=2&sV=1" target={"_blank"}>
+              Passo Fundo, Rio Grande do Sul
+              </a>
+            </li>
+        </ul>
 
-                </div>
+    </div>
 
-            </footer>
+</footer>
           </div>
         </section>
       </>

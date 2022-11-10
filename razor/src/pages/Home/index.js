@@ -158,9 +158,6 @@ function Home() {
           </a>
         </div>
 
-        <div className="header">
-          <img src={logo} alt="Logo Razor" />
-        </div>
       </div>
     </>
   );
